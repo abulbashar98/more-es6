@@ -46,9 +46,11 @@ class StudentCare extends PrgrmngHeroTeamMmbr {
 
 class NeptuneDev extends PrgrmngHeroTeamMmbr {
     designation;
-    constructor(name, address, designation) {
+    codeEditor;
+    constructor(name, address, designation, editor) {
         super(name, address)
         this.designation = designation;
+        this.codeEditor = editor;
     }
 
     releaseApp(version) {
@@ -70,9 +72,9 @@ const mash = new StudentCare('mashrafe', 'norail', 'student care dev')
 console.log(mash);
 
 
-const mushfiq = new NeptuneDev('mushfiq', 'barishal', 'Neptune dev')
+const mushfiq = new NeptuneDev('mushfiq', 'barishal', 'Neptune dev', 'android studio')
 mushfiq.releaseApp('12.5.9.8')
-const sabbir = new NeptuneDev('sabbir', 'dhaka', 'neptune web dev')
+const sabbir = new NeptuneDev('sabbir', 'dhaka', 'neptune web dev', 'android studio')
 console.log(sabbir)
 
 
@@ -82,23 +84,24 @@ console.log(sabbir)
 
 //===>
 
-//   PS C:\Main Projects\more-es6> node inheritance.js
-//   Support {
-//     name: 'tamim',
-//     designation: 'support web dev',
-//     address: 'chattogram',
-//     groupSupportTime: 6
-//   }
-//   tamim start group support session
-//   Sakib build a specia guideline routine for Khaled
-//   StudentCare {
-//     name: 'mashrafe',
-//     designation: 'student care dev',
-//     address: 'norail'
-//   }
-//   mushfiq release app version 12.5.9.8
-//   NeptuneDev {
-//     name: 'sabbir',
-//     designation: 'neptune web dev',
-//     address: 'dhaka'
-//   }
+// PS C:\Main Projects\more-es6> node inheritance.js
+// Support {
+//   name: 'tamim',
+//   designation: 'support web dev',
+//   address: 'chattogram',
+//   groupSupportTime: 6
+// }
+// tamim start group support session
+// Sakib build a specia guideline routine for Khaled
+// StudentCare {
+//   name: 'mashrafe',
+//   designation: 'student care dev',
+//   address: 'norail'
+// }
+// mushfiq release app version 12.5.9.8
+// NeptuneDev {
+//   name: 'sabbir',
+//   designation: 'neptune web dev',
+//   address: 'dhaka',
+//   codeEditor: 'android studio'
+// }
