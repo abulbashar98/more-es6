@@ -1,4 +1,4 @@
-// destucturing Object with association to Property
+// destucturing Object with association to Property 
 
 // const myObject = { p: 54, q: 77, r: 89, s: 32, t: 13, u: 99, v: 35 };
 // const { q, r, t } = myObject;

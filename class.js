@@ -7,8 +7,8 @@ class Friend {
         this.age = age;
         this.address = address;
     }
-    startMeet() {
-        console.log(this.name + ' shobai k ashte bol')
+    startMeet(time) {
+        console.log(this.name + ' shobai k ashte bol at ', time)
     }
 }
 

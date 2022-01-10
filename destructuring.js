@@ -25,7 +25,11 @@ const { address, weight, school } = student;
 // Complex Cases
 const company = {
     name: 'GP',
-    ceo: { name: 'David', age: 54, nationality: 'British' },
+    ceo: {
+        name: 'David',
+        age: 54,
+        nationality: 'British'
+    },
     web: {
         work: "web development",
         employee: 75,
@@ -42,4 +46,9 @@ const company = {
 const { work, employee, tech } = company.web;
 const { js, frameworks } = company.web.tech;
 console.log(work, employee, tech);
+//===>
+// web development 75 { html: 5, css: 3, js: 'es6', frameworks: 'React-tailwind-nodeJs' }
+
 console.log(js, frameworks);
+//===>
+// es6 React-tailwind-nodeJs
