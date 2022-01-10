@@ -26,8 +26,8 @@ class Support extends PrgrmngHeroTeamMmbr {
         this.groupSupportTime = time;
     }
 
-    startAgroupSupportSession() {
-        console.log(this.name + ' start group support session')
+    startAgroupSupportSession(time) {
+        console.log(this.name + ' start group support session at ', time)
     }
 }
 
@@ -64,7 +64,7 @@ const soumya = new Support('soummya', 'kolabagan', 'suppor web dev', 11)
 const liton = new Support('liton', 'kolabagan', 'suppor web dev', 7)
 const afif = new Support('afif', 'kolabagan', 'suppor web dev', 8)
 console.log(tamim);
-tamim.startAgroupSupportSession()
+tamim.startAgroupSupportSession(7)
 
 const sakib = new StudentCare('Sakib', 'jhinaidaha', 'student care dev')
 sakib.buildRoutine('Khaled')
@@ -91,7 +91,7 @@ console.log(sabbir)
 //   address: 'chattogram',
 //   groupSupportTime: 6
 // }
-// tamim start group support session
+// tamim start group support session at  7
 // Sakib build a specia guideline routine for Khaled
 // StudentCare {
 //   name: 'mashrafe',
