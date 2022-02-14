@@ -36,8 +36,9 @@ const { js, frameworks } = company.web.tech;
 
 
 
-
-// optional chaining
+// const myObject = { p: 54, q: 77, r: 89, s: 32, t: 13, u: 99, v: 35 };
+// optional chaining (x?. y?. z?.)
+// Note: Here, console.log(x) is undefined... bcoz it doesn't exist in object... But x.y or y.z is an Error.... With optional chaining we can prevent that error....Optional chaining progresses only if the property exists in Array....
 
 
 
