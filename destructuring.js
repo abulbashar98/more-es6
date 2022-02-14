@@ -20,7 +20,7 @@ const { address, weight, school } = student;
 
 
 
-
+// Note: The main goal of Destructuring is to Declare Multiple variables at once from an Object to use later...
 
 // Complex Cases
 const company = {
@@ -45,9 +45,11 @@ const company = {
 
 const { work, employee, tech } = company.web;
 const { js, frameworks } = company.web.tech;
-console.log(work, employee, tech);
+const { age } = company.ceo;
+console.log(work, employee, tech, age);
 //===>
-// web development 75 { html: 5, css: 3, js: 'es6', frameworks: 'React-tailwind-nodeJs' }
+// web development 75 { html: 5, css: 3, js: 'es6', frameworks: 'React-tailwind-nodeJs' } 54
+
 
 console.log(js, frameworks);
 //===>
